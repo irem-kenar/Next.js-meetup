@@ -1,8 +1,6 @@
 import classes from "./MeetupDetail.module.css"
-import { Fragment } from "react";
 
 function MeetupDetail(props) {
-    console.log(props);
     return (
         <section className={classes.detail}>
             <img src={props.image} alt={props.title} />
